@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "marca": "Fierce",
+        "rodado": 28,
+        "añoFabricacion": 2019,
+        "color": "Celeste",
+        "pesoEnKg": 15,
+        "tipo": "Paseo",
+        "precio": 20000,
+        "vendida": false
+    },
+    {
+        "id": 2,
+        "marca": "Olmo", 
+        "rodado": 26,
+        "añoFabricacion": 2022,
+        "color": "Negro",
+        "pesoEnKg": 13,
+        "tipo": "Carrera",
+        "precio": 27000,
+        "vendida": false
+    },
+    {
+        "id": 3,
+        "marca":"TopMega", 
+        "rodado":24,
+        "añoFabricacion": 2023,
+        "color": "Azul",
+        "pesoEnKg": 13,
+        "tipo": "Retro",
+        "precio": 19000,
+        "vendida": true
+    }
+]
