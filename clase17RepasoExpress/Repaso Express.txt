@@ -1,0 +1,32 @@
+Repaso Express
+
+npm init -y para inicializar cualquier proceso en node
+con las opciones por defecto
+crea un package.json con datos necesarios
+
+npm i express para descargar express en cada proyecto nuevo
+en que lo vaya a utilizar
+
+Puedo pensar el servidor como el "departamento de un edificio"
+En cada departamento(puerto) vive una persona(app)
+para express utilizo el puerto 3000 generalemnte, sino puedo utilizar cualquier 
+otro que esté libre
+del 3mil en adelante suelen estar libres. 
+para que el servidor se ponga en el puerto 3mil hago:
+app.listen(3000, function(){
+    console.log("servidor escuchando en puerto 3000"); // esto se ejecuta solo cuando se establece la conexion.
+});
+En cada departamento puedo tener distintos ambientes,
+cuando entro a un departamento ya estoy en un ambiente
+sucede lo mismo con los servidores. 
+
+entro en google.com, la ruta es google.com/
+puedo tener otras rutas(ambientes)
+google.com/politicas
+google.com/config/temas
+ctrl c para detener servidor 
+node app.js para volver a abrirlo
+
+npx nodemon app para instalar globalmente nodemon y
+si hago nodemon app.js el server se refresca constantemente
+

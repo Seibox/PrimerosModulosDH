@@ -1,0 +1,14 @@
+en views guardo cada una de las páginas que va a tener mi proyecto
+Con inspeccionar puedo ver mi html 
+puedo ver el espacio que ocupa cada elemento, margen y padding
+Hay elementos de bloque que por defecto ocupan el 100% del ancho
+y elementos de linea que por defecto ocupan el espacio del elemento en si.
+
+para que me aparezca un html en una ruta:
+res.sendfile()
+
+para rutas absolutas puedo usar __dirname
+que nos muestra la ruta absoluta hasta el archivo 
+donde estamos parados en el momento de su ejecución 
+
+para unir utilizo join, debo importar modulo path
